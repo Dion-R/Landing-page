@@ -1,243 +1,237 @@
 :root {
---light-purple: #666CA3;
---dark-blue: #13183f;
---mid-grey: #83869A;
---pink: #F74780;
---light-pink: #FFA7C3;
---white: #FFFFFF;
---orange-pink: linear-gradient(#FF6F48,#F02AA6);
---blue-pink: linear-gradient(#4851FF,#F02AA6);
+  --light-purple: #666ca3;
+  --dark-blue: #13183f;
+  --mid-grey: #83869a;
+  --pink: #f74780;
+  --light-pink: #ffa7c3;
+  --white: #ffffff;
+  --orange-pink: linear-gradient(#ff6f48, #f02aa6);
+  --blue-pink: linear-gradient(#4851ff, #f02aa6);
 }
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 500;
-    min-height: 100vh;
-    line-height: 26px;
-    background-color: var(--white);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  background-color: var(--white);
 }
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .heading-xl {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 800;
-    font-size: 56px;
-    line-height: 70px;
-    color: var(--dark-blue);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 70px;
+  color: var(--dark-blue);
 }
 .heading-l {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 51px;
-    color: var(--dark-blue);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 51px;
+  color: var(--dark-blue);
 }
 .heading-m {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 40px;
-    color: var(--dark-blue);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--dark-blue);
 }
 .heading-s {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 28px;
-    color: var(--dark-blue);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--dark-blue);
 }
 .body-m {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 500;
-    size: 18px;
-    line-height: 28px;
-    color: var(--mid-grey)
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  size: 18px;
+  line-height: 28px;
+  color: var(--mid-grey);
 }
 .body-s {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    color: var(--mid-grey);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--mid-grey);
 }
 .button-1 {
-    background: var(--dark-blue);
-    border-radius: 30px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    padding: 10px 20px;
-    text-transform: capitalize ;
+  background: var(--dark-blue);
+  border-radius: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-transform: capitalize;
 }
 .button-2 {
-    background: var(--orange-pink);
-    border-radius: 30px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    padding: 10px 20px;
-    text-transform: capitalize ;
+  background: var(--orange-pink);
+  border-radius: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-transform: capitalize;
 }
 .button-3 {
-    background: var(--blue-pink);
-    border-radius: 30px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    padding: 10px 20px;
-    text-transform: capitalize ;
+  background: var(--blue-pink);
+  border-radius: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-transform: capitalize;
 }
 .button-1:hover {
-    background-color: var(--light-purple);
+  background-color: var(--light-purple);
 }
 .button-2:hover {
-   opacity: 0.5;
+  opacity: 0.5;
 }
 .button-3:hover {
-   opacity: 0.5;
+  opacity: 0.5;
 }
 .container {
-    max-width: 58rem;
-    margin: 0 auto;
+  max-width: 58rem;
+  margin: 0 auto;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 3.5rem;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  margin-bottom: 2rem;
 }
 .heading {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 2rem;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 2rem;
 }
 #title {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 #title-description {
-    padding-bottom: 2.0rem;
+  padding-bottom: 2rem;
 }
 
 .heading-img {
-    background-image: url(assets/image-hero-desktop.png);
-    background-repeat: none;
-    background-position: left 0px bottom 0px;
-    overflow: hidden;
-    background-size: 100%;
+  background-image: url(assets/image-hero-desktop.png);
+  background-repeat: none;
+  background-position: left 0px bottom 0px;
+  overflow: hidden;
+  background-size: 100%;
 }
 
 .grid-layout {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
-    row-gap: 50px;
-    height: 100%;
-    padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 50px;
+  height: 100%;
+  padding-bottom: 40px;
 }
 .card {
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    padding: 20px;
-    position: relative;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
 }
 
 .card h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .card a {
-    color: var(--pink);
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+  color: var(--pink);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
 .card a:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .card p {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .card img {
-    height: 50px;
-    position: absolute;
-    top: -25px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
 }
 
 .grid-1 {
-    background: var(--orange-pink);
+  background: var(--orange-pink);
 }
 
 .grid-1 h1 {
-    color: white;
+  color: white;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
 }
 
 .footer h1 {
-    color: white;
+  color: white;
 }
 
 footer {
-    background-color: var(--dark-blue);
+  background-color: var(--dark-blue);
 }
 
 @media screen and (max-width: 956px) {
-.container {
-        width: 90%;
-    }
-#title {
+  .container {
+    width: 90%;
+  }
+  #title {
     font-size: 40px;
     line-height: 51px;
-}
-.grid-layout {
+  }
+  .grid-layout {
     grid-template-columns: repeat(2, 1fr);
+  }
 }
-}
-
 
 @media screen and (max-width: 647px) {
-
-.grid-layout {
+  .grid-layout {
     grid-template-columns: repeat(1, 1fr);
-}
+  }
 
-.heading {
+  .heading {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: 
-    'a'
-    'b';
-}
+    grid-template-areas:
+      "a"
+      "b";
+  }
 
-.heading-information {
+  .heading-information {
     grid-area: b;
-
-}
-.heading-img {
+  }
+  .heading-img {
     grid-area: a;
     background-image: url(assets/image-hero-mobile.png);
     height: 20rem;
     background-repeat: none;
     background-position: center;
     background-size: cover;
-
-}
+  }
 }
